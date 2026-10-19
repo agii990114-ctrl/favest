@@ -1,0 +1,18 @@
+{
+  "v": 4,
+  "createdOnFiles": { "v": 1, "at": "2026-10-19T13:00:00Z" },
+  "lists": "css",
+  "title": "FAVEST 발표자료",
+  "order": ["cover", "intent", "flow", "selection", "weights", "verify", "conservative", "screens", "demo", "ai", "arch", "limits", "close"],
+  "sections": {
+    "s1": { "description": "무엇을 왜 만들었는지", "start": "cover" },
+    "s2": { "description": "종목을 어떻게 고르는지", "start": "selection" },
+    "s3": { "description": "화면, AI, 구조", "start": "screens" },
+    "s4": { "description": "한계와 마무리", "start": "limits" }
+  },
+  "faces": {
+    "do-hyeon": { "family": "Do Hyeon", "href": "https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" },
+    "ibm-plex-sans-kr": { "family": "IBM Plex Sans KR", "href": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap" }
+  },
+  "designSystems": []
+}

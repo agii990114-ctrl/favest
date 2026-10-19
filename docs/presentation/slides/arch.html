@@ -1,0 +1,25 @@
+<section id="arch" data-transition="fade" style="background:#fbfcff;color:#141a4a;font-family:'IBM Plex Sans KR', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:20px">
+<h2 style="font-family:'Do Hyeon', 'IBM Plex Sans KR', sans-serif;font-size:64px;font-weight:400;line-height:1.15">구조는 가볍게 두었습니다</h2>
+<p style="font-size:32px;line-height:1.45;color:#4a5280">계산은 브라우저에서 하고, 서버 함수는 뉴스용 하나뿐입니다.</p>
+</div>
+<div style="display:flex;gap:24px;align-items:center">
+<div style="flex:1;display:flex;flex-direction:column;gap:14px;background:#eef1fd;padding:36px;border-radius:20px">
+<p style="font-size:30px;font-weight:700;color:#3550e0">브라우저</p>
+<p style="font-size:26px;line-height:1.55;color:#4a5280">React · TypeScript(Vite)<br>추천 계산, 계정, 조건·관심 종목 저장</p>
+</div>
+<x-shape kind="arrow-right" style="width:72px;height:36px;background:#3550e0"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:14px;background:#232a8f;padding:36px;border-radius:20px">
+<p style="font-size:30px;font-weight:700;color:#ffd83d">Vercel</p>
+<p style="font-size:26px;line-height:1.55;color:#eef0ff">정적 배포와 서버리스 함수 1개<br>(뉴스 요약 전용)</p>
+</div>
+<x-shape kind="arrow-right" style="width:72px;height:36px;background:#3550e0"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:14px;background:#eef1fd;padding:36px;border-radius:20px">
+<p style="font-size:30px;font-weight:700;color:#3550e0">외부</p>
+<p style="font-size:26px;line-height:1.55;color:#4a5280">Google 뉴스 RSS<br>Gemini API</p>
+</div>
+</div>
+<p style="font-size:28px;line-height:1.5;color:#4a5280">시세는 FinanceDataReader로 받은 43개 종목, 125거래일 스냅샷을 앱에 담아 둡니다.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:900px;font-size:24px;color:#6b739f">FAVEST · 11</p>
+<aside>구조는 단순합니다. 추천 계산, 계정, 조건 저장은 모두 브라우저에서 합니다. 서버 함수는 뉴스 요약 하나이고 Vercel에서 정적 파일과 함께 배포됩니다. 시세 데이터는 FinanceDataReader로 받은 스냅샷을 앱에 담았습니다. 그래서 DB도 서버도 없이 배포가 간단하지만, 그만큼 한계도 있습니다.</aside>
+</section>
